@@ -1,13 +1,19 @@
 import { SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
 import Link from "next/link";
 import React from "react";
+import Image from "next/image";
 
 const Navbar = () => {
   return (
-    <header className="w-full border-b">
-      <div className="wrapper flex items-center justify-between">
+    <header className="w-full">
+      <div className="flex items-center justify-between px-24">
         <Link href="/" className="w-36">
-          <p>Home</p>
+          <Image
+            src={"/assets/Reci_Now_green.png"}
+            alt="logo"
+            width={100}
+            height={100}
+          />
         </Link>
 
         {/* <SignedIn>
