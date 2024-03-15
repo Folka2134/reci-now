@@ -6,13 +6,13 @@ import Image from "next/image";
 const Navbar = () => {
   return (
     <header className="w-full">
-      <div className="flex items-center justify-between px-24">
+      <div className="flex items-center justify-between px-6 lg:px-36">
         <Link href="/" className="w-36">
           <Image
             src={"/assets/Reci_Now_green.png"}
             alt="logo"
-            width={100}
-            height={100}
+            width={140}
+            height={140}
           />
         </Link>
 
