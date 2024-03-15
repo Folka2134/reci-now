@@ -54,3 +54,16 @@ export const dummyData = [
     updatedAt: "2021-06-01",
   },
 ];
+
+export const dummyCategories = [
+  "Italian",
+  "Mexican",
+  "Chinese",
+  "Indian",
+  "American",
+  "Thai",
+  "Japanese",
+  "Mediterranean",
+  "French",
+  "Spanish",
+];
